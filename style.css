@@ -1,0 +1,180 @@
+body{
+    background-color: lightsalmon;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+	margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #00416A;
+}
+
+nav ul li{
+    margin: 0 15px;
+    border: solid black;
+    width: 1fr;
+    padding: 5px 10px;
+}
+
+nav ul li a{
+    cursor: pointer;
+    color: white;
+}
+
+nav ul li:hover {
+	background-color: rgb(103, 21, 21);
+}
+
+.title{
+    display: flex;
+    align-items: baseline;
+    border: solid brown 6px;
+    border-radius: 0 50px 50px 50px;
+    padding-left: 15px;
+}
+
+.title h1{
+    font-family: helvetica;
+    font-size: 50px;
+}
+#letsgo{
+    margin: 0 0 0 10px;
+    font-size: 30px;
+    font-family: cursive;
+    color: brown;
+}
+
+#tulipsimg{
+    display: block;
+    margin: 20px auto;
+    border: solid brown 5px;
+    width: 90vw;
+}
+
+main{
+    margin: 0 1%;
+}
+
+.blist{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    width: 420px;
+    border-radius: 20px 20px 0 0;
+}
+
+ul.budget{
+    list-style-type: none;
+    background-color: aquamarine;
+    border-radius: 0 0 20px 20px;
+    margin-top: 0;
+    width: 400px;
+}
+
+ul.budget li{
+    margin: 0px 0 15px 0;
+	padding: 10px;
+	border-radius: 25px;
+	position: relative;
+    width: 300px;
+}
+/* ▣ □ */
+ul.budget li:nth-child(odd){
+    background: #133530;
+    color: rgb(202, 130, 76);
+}
+ul.budget li:nth-child(even){
+    background: #5d9990;
+    color: rgb(105, 55, 17);
+}
+ul.budget li::before {
+	    content: '□';
+	    position: absolute;
+	    left: -20px;
+	    top: 10px;
+	    color: #5d9990;
+}
+
+.faq dt {
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.faq dd{
+    display: none;
+}
+.faq dd.open {
+    display: block;
+}
+
+.video-container{
+    position: relative;
+	    padding-bottom: 56.25%; /* 16:9 */
+	    height: 0;
+	    overflow: hidden;
+	    max-width: 50%;
+	    background: #000;
+}
+
+.video-container video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+}
+
+form {
+    border: 4px  solid brown;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    width: 390px;
+}
+#pass{
+    width: 90px;
+}
+
+#club{
+    width: 115px;
+}
+
+form button{
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: brown;
+    color: white;
+}
+button:hover {
+	    background-color: rgb(78, 14, 14);
+}
+
+.news-feed {
+    background-color: rgba(255, 255, 255, 0.296);
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 1rem 0;
+    display: grid;
+    gap: 1rem;
+}
+
+.news-card {
+    padding: 0 1rem;
+    border-radius: 10px;
+    background: #f4f4f486;
+}
+
+.footer{
+    width: 1fr;
+    height: 100px;
+    background-color: #000;
+    color: aliceblue;
+}
+.footer p{
+    margin: 0px 10px;
+    padding: 5px 0;
+}
