@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
 body{
-    background-color: lightsalmon;
+    background-color: #F5F0E8;
     margin: 0;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    line-height: 1.65;
+    color: #2C2C2A;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.2;
+    color: #0F1F2E;
+}
+
+header {
+    background-color: #0F1F2E;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav ul{
@@ -9,49 +30,59 @@ nav ul{
 	margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #00416A;
+    background-color: #0F1F2E;
 }
 
 nav ul li{
     margin: 0 15px;
-    border: solid black;
     width: 1fr;
     padding: 5px 10px;
 }
 
 nav ul li a{
     cursor: pointer;
-    color: white;
+    color: #F5F0E8;
 }
 
 nav ul li:hover {
-	background-color: rgb(103, 21, 21);
+	border-bottom: 2px solid #E8521A;
 }
 
 .title{
     display: flex;
     align-items: baseline;
-    border: solid brown 6px;
-    border-radius: 0 50px 50px 50px;
-    padding-left: 15px;
+    gap: 16px;
+    padding: 32px 24px 24px;
 }
 
 .title h1{
-    font-family: helvetica;
-    font-size: 50px;
+    font-size: 52px;
+    color: #F5F0E8;
 }
 #letsgo{
-    margin: 0 0 0 10px;
-    font-size: 30px;
-    font-family: cursive;
-    color: brown;
+    font-style: italic;
+    margin: 0;
+    font-size: 24px;
+    color: #F5A623;
 }
 
 #tulipsimg{
     display: block;
     margin: 20px auto;
-    border: solid brown 5px;
-    width: 90vw;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center 40%;
+    border-top: 3px solid #1B3A5C;
+    border-bottom: 3px solid #1B3A5C;
+}
+
+header audio {
+    display: block;
+    margin: 16px 24px;
+    accent-color: #E8521A;
+    opacity: 0.7;
+    padding-bottom: 16px;
 }
 
 main{
@@ -97,6 +128,11 @@ ul.budget li::before {
 	    left: -20px;
 	    top: 10px;
 	    color: #5d9990;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .faq dt {
