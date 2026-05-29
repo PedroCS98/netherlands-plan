@@ -44,16 +44,18 @@
                 <li>Prepare to move</li>
                 <li>Set Up!</li>
             </ol>
-            <p class="blist">Budget List</p>
-            <ul class="budget">
-            <li>Rent</li>
-            <li>Deposit</li>
-            <li>Transport</li>
-            <li>xFood</li>
-            <li>Utilities</li>
-            <li>xTravel</li>
-            <li>xSet-Up</li>
-            </ul>
+            <section>
+                <h2>Budget List</h2>
+                <ul class="budget">
+                    <li>Rent</li>
+                    <li>Deposit</li>
+                    <li>Transport</li>
+                    <li>xFood</li>
+                    <li>Utilities</li>
+                    <li>xTravel</li>
+                    <li>xSet-Up</li>
+                </ul>
+            </section>
             <section>
                 <p>Otis</p>
                 <ul>
@@ -158,13 +160,13 @@
             <section>
                 <h2>FAQ</h2>
                 <dl class="faq">
-                    <dt>É para ir mesmo?</dt>
+                    <dt>É para ir mesmo?<span class="faq-arrow">↓</span></dt>
                     <dd>Boraaaaaaaa!</dd>
-                    <dt>How much do we have/need?</dt>
+                    <dt>How much do we have/need?<span class="faq-arrow">↓</span></dt>
                     <dd>You can check how much we saved/need in <a href="">Budget</a>!</dd>
-                    <dt>When are we going?</dt>
+                    <dt>When are we going?<span class="faq-arrow">↓</span></dt>
                     <dd>TBA</dd>
-                    <dt>How can I search for a job?</dt>
+                    <dt>How can I search for a job?<span class="faq-arrow">↓</span></dt>
                     <dd>
                         <p>These are the core platforms in the Netherlands:</p>
                         <ul>
@@ -307,9 +309,9 @@
                             <td class="row-total">0</td>
                         </tr>
                     </tbody>
-                    
                 </table>
             </section>
+            <!--
             <section>
                 <p>elementos de html a usar</p>
                 <details>
@@ -324,32 +326,44 @@
                     </video>
                 </div>
             </section>
-            <form action="/submit" method="post">
-                <label for="email">Email:</label>
-                <input id="email" name="email" type="email" required>
-                <label for="pass">Password:</label>
-                <input id="pass" name="pass" type="password" placeholder="Leave empty" maxlength="0">
-                <label for="club">Favourite Club:</label>
-                <select id="club" name="club" required>
-                    <option value="select club">Select Club</option>
-                    <option value="arsenal">Arsenal</option>
-                    <option value="manchester city">Manchester City</option>
-                    <option value="manchester united">Manchester United</option>
-                    <option value="fc barcelona">FC Barcelona</option>
-                    <option value="real madrid">Real Madrid</option>
-                    <option value="atletico madrid">Atletico Madrid</option>
-                    <option value="fc bayern munich">FC Bayern Munich</option>
-                    <option value="borussia dortmund">Borussia Dortmund</option>
-                    <option value="rb leipzig">RB Leipzig</option>
-                    <option value="inter milan">Inter Milan</option>
-                    <option value="ssc napoli">SSC Napoli</option>
-                    <option value="ac milan">AC Milan</option>
-                    <option value="fc porto">FC Porto</option>
-                    <option value="sporting cp">Sporting CP</option>
-                    <option value="">SL Benfica</option>
-                </select>
-                <button type="submit">Log in</button>
-            </form>
+            -->
+            <section>
+                <h2>Login</h2>
+                <form action="/submit" method="post">
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div>
+                        <label for="pass">Password:</label>
+                        <input id="pass" name="pass" type="password" placeholder="Leave empty" maxlength="0">
+                    </div>
+                    <div>
+                        <label for="club">Favourite Club:</label>
+                        <select id="club" name="club" required>
+                            <option value="select club">Select Club</option>
+                            <option value="arsenal">Arsenal</option>
+                            <option value="manchester city">Manchester City</option>
+                            <option value="manchester united">Manchester United</option>
+                            <option value="fc barcelona">FC Barcelona</option>
+                            <option value="real madrid">Real Madrid</option>
+                            <option value="atletico madrid">Atletico Madrid</option>
+                            <option value="fc bayern munich">FC Bayern Munich</option>
+                            <option value="borussia dortmund">Borussia Dortmund</option>
+                            <option value="rb leipzig">RB Leipzig</option>
+                            <option value="inter milan">Inter Milan</option>
+                            <option value="ssc napoli">SSC Napoli</option>
+                            <option value="ac milan">AC Milan</option>
+                            <option value="fc porto">FC Porto</option>
+                            <option value="sporting cp">Sporting CP</option>
+                            <option value="">SL Benfica</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit">Log in</button>
+                </form>
+            </section>
+            <!--
             <section class="news-feed">
                 <h2>Netherlands News Feed</h2>
                 <article class="news-card">
@@ -365,6 +379,7 @@
                     </footer>
                 </article>
             </section>
+        -->
         </main>
         <footer class="footer">
              <p>© 2026 Meu Site</p>
