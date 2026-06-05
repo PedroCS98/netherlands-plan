@@ -52,6 +52,7 @@ nav ul li a{
 .title{
     display: flex;
     align-items: baseline;
+    justify-content: center;
     gap: 16px;
     padding: 32px 24px 24px;
 }
@@ -316,10 +317,6 @@ button:hover {
 }
 
 @media (max-width: 640px) {
-    h1 {
-        font-size: 2rem;
-    }
-    
     h2 {
         font-size: 1.5rem;
     }
@@ -334,6 +331,11 @@ button:hover {
     nav ul li a {
         font-size: 0.8rem;
     }
+
+    .title h1{
+        font-size: 2.75rem;
+    }
+
     #tulipsimg {
         height: 220px;
     }
