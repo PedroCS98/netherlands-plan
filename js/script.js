@@ -3,8 +3,9 @@ const questions = document.querySelectorAll('.faq dt');
 if (questions.length > 0){
     for (let i = 0; i<questions.length; i++) {
         questions[i].addEventListener('click', () => {
-            const answer = questions[i].nextElementSibling.classList.toggle('open');
-            });
+            questions[i].classList.toggle('open');
+            questions[i].nextElementSibling.classList.toggle('open');
+        });
     }
 }
 
