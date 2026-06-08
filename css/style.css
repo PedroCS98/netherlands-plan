@@ -49,6 +49,17 @@ nav ul li a{
     text-decoration: none;
 }
 
+li.login-buttom{
+    background-color: #E8521A;
+    position: absolute;
+    right: 0;
+    margin-right: 0;
+}
+
+li.login-buttom:hover{
+    border-bottom: 3px solid #F5A623;
+}
+
 .title{
     display: flex;
     align-items: baseline;
@@ -330,6 +341,11 @@ button:hover {
     
     nav ul li a {
         font-size: 0.8rem;
+    }
+
+    li.login-buttom{
+        position: static;
+        right: auto;
     }
 
     .title h1{

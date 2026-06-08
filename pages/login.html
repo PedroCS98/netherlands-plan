@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Pedro F C Simões">
+        <title>Login — Netherlands Plan</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="plan.html">The Plan</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li class="login-buttom"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="title">
+                <h1>Login</h1>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2>Login</h2>
+                <form action="/submit" method="post">
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div>
+                        <label for="pass">Password:</label>
+                        <input id="pass" name="pass" type="password" placeholder="Leave empty" maxlength="0">
+                    </div>
+                    <div>
+                        <label for="club">Favourite Club:</label>
+                        <select id="club" name="club" required>
+                            <option value="select club">Select Club</option>
+                            <option value="arsenal">Arsenal</option>
+                            <option value="manchester city">Manchester City</option>
+                            <option value="manchester united">Manchester United</option>
+                            <option value="fc barcelona">FC Barcelona</option>
+                            <option value="real madrid">Real Madrid</option>
+                            <option value="atletico madrid">Atletico Madrid</option>
+                            <option value="fc bayern munich">FC Bayern Munich</option>
+                            <option value="borussia dortmund">Borussia Dortmund</option>
+                            <option value="rb leipzig">RB Leipzig</option>
+                            <option value="inter milan">Inter Milan</option>
+                            <option value="ssc napoli">SSC Napoli</option>
+                            <option value="ac milan">AC Milan</option>
+                            <option value="fc porto">FC Porto</option>
+                            <option value="sporting cp">Sporting CP</option>
+                            <option value="">SL Benfica</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit">Log in</button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy 2026 Netherlands Plan</p>
+            <p>Pedro, Valter, Rafa & Nuno</p>
+        </footer>
+        <script src="../js/script.js"></script>
+    </body>
+</html>
