@@ -34,9 +34,6 @@
     left: 0;
     background: rgba(15, 31, 46, 0.6);
     z-index: 200;
-    /*inset: 0;
-    align-items: center;
-    justify-content: center;*/
 }
 
 .modal-overlay.open {
@@ -48,16 +45,16 @@
     border-radius: 15px;
     padding: 3rem;
     min-width: 4rem;
-    max-width: 70vw;
+    max-width: 60vw;
     width: fit-content;
     min-height: 4rem;
-    max-height: 80vh;
+    max-height: 70vh;
     height: fit-content;
     position: relative;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    /*overflow-y: auto;*/
+    overflow-y: auto;
 }
 
 .modal-close {
