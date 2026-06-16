@@ -49,6 +49,17 @@ nav ul li a{
     text-decoration: none;
 }
 
+li.login-buttom{
+    background-color: #E8521A;
+    position: absolute;
+    right: 0;
+    margin-right: 0;
+}
+
+li.login-buttom:hover{
+    border-bottom: 3px solid #F5A623;
+}
+
 .title{
     display: flex;
     align-items: baseline;
@@ -125,7 +136,6 @@ ul.budget li{
     color: #1B3A5C;
 }
 
-
 .faq dt {
     cursor: pointer;
     display: flex;
@@ -139,18 +149,7 @@ ul.budget li{
     padding: 8px 12px;
     border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
 }
-/*
-.faq-arrow {
-    color: #7BAFD4;
-    transition: transform 220ms ease;
-    display: inline-block;
-    }
-    
-    .faq dt.open .faq-arrow {
-        transform: rotate(180deg);
-        }
-        */
-        
+
 .faq dt:hover {
     background: rgba(123, 175, 212, 0.08);
 }
@@ -161,6 +160,39 @@ ul.budget li{
     margin: 0;
     border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
 }
+
+.faq dt .faq-arrow {
+    display: inline-block;
+    position: relative;
+}
+
+/* Faq ↓ is shown and ✕ is hidden*/
+.faq dt .faq-arrow::before {
+    content: '↓';
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    transition: opacity 150ms ease;
+}
+.faq dt .faq-arrow::after {
+    content: '✕';
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 200ms ease;
+}
+
+/* Shows ✕ and hides ↓ */
+.faq dt.open .faq-arrow::before {
+    opacity: 0;
+}
+.faq dt.open .faq-arrow::after {
+    opacity: 1;
+}
+
+/* Shows FAQ answer */
 .faq dd.open {
     display: block;
 }
@@ -330,6 +362,11 @@ button:hover {
     
     nav ul li a {
         font-size: 0.8rem;
+    }
+
+    li.login-buttom{
+        position: static;
+        right: auto;
     }
 
     .title h1{

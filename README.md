@@ -12,9 +12,11 @@ Personal learning project built during a Full Stack & Web Design course — plan
 - **Per-person to-do lists** — individual action items for Nuno, Rafa, Valter and Otis
 - **Budget calculator** — monthly savings table per person with auto-totals (vanilla JS)
 - **FAQ section** — accordion-style toggle (vanilla JS)
-**Design system implemented** — full CSS rewrite with custom properties, Google Fonts, and consistent design tokens
+- **Design system implemented** — full CSS rewrite with custom properties, Google Fonts, and consistent design tokens
 - **News feed** — to be implemented section for Netherlands updates
+- **Humburger Menu for navbar** - to be implemented for navbar
 - **Login form** — to be implemented section for login
+- **Budget database** - database to store monthly savings
 
 ---
 
@@ -49,9 +51,12 @@ No frameworks or libraries — intentionally kept simple while learning the fund
 - [x] Design system defined
 - [x] Semantic HTML pass
 - [x] CSS rewrite using design system
-- [ ] Responsive design
-- [ ] Multi-page structure
+- [x] Responsive design
+- [x] Multi-page structure
+- [ ] News feed
+- [ ] Mobile burger menu
 - [ ] Login / authentication
+- [ ] Budget database
 
 ---
 
