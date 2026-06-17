@@ -186,20 +186,120 @@ ul.budget li{
 
 /*
 .news-feed {
-    background-color: rgba(255, 255, 255, 0.296);
     border-radius: 10px;
-    border: 1px solid;
-    margin: 1rem 0;
-    display: grid;
-    gap: 1rem;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(15, 31, 46, 0.12);
+}
+
+.news-feed-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid rgba(15, 31, 46, 0.3);
+}
+
+.news-feed-header h2 {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#news-toggle {
+    cursor: pointer;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 6px 16px;
+    border-radius: 99px;
+    border: 1.5px solid #1B3A5C;
+    background: transparent;
+    color: #1B3A5C;
+    transition: background 300ms ease, transform 100ms ease;
+    white-space: nowrap;
+}
+
+#news-toggle:hover {
+    background: #E8521A;
+    color: #F5F0E8;
+    border-color: #E8521A;
+    transform: translateY(-1.5px);
 }
 
 .news-card {
-    padding: 0 1rem;
+    background: rgba(255, 255, 255, 0.62);
+    border: 0.5px solid rgba(15, 31, 46, 0.14);
     border-radius: 10px;
-    background: #f4f4f486;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 4px;
 }
 */
+
+
+.news-tag {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 99px;
+    align-self: flex-start;
+    background: rgba(27, 58, 92, 0.1);
+    color: #1B3A5C;
+}
+
+.news-card h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.news-card p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: #4A4A48;
+    margin: 0;
+}
+
+.news-card-footer {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.news-date {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.news-source {
+    font-size: 0.65rem;
+    color: #888;
+    flex: 1;
+}
+
+.news-link {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1B3A5C;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 200ms ease;
+}
+
+.news-link:hover {
+    color: #E8521A;
+}
 
 /* === FOOTER === */
 
