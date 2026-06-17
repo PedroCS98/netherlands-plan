@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Rotterdam rents rise 9% — mid-range flats hit hardest",
+    "summary": "New data from NVM shows mid-range apartments in Rotterdam saw the sharpest year-on-year increase, with average rents crossing €1,400/mo.",
+    "url": "#",
+    "date": "2026-06-10",
+    "category": "Housing",
+    "mode": "serious",
+    "source": "DutchNews.nl",
+    "pinned": true,
+    "tags": ["Rotterdam", "rent", "housing"]
+  },
+  {
+    "title": "Tech hiring rebounds in Eindhoven and Amsterdam",
+    "summary": "After a quiet Q1, Dutch tech companies are actively recruiting again, with junior full-stack roles up 22% on LinkedIn Netherlands.",
+    "url": "#",
+    "date": "2026-06-08",
+    "category": "Jobs",
+    "mode": "serious",
+    "source": "LinkedIn Netherlands",
+    "pinned": false,
+    "tags": ["jobs", "tech", "Eindhoven", "Amsterdam"]
+  },
+  {
+    "title": "Grocery prices stabilise — but energy bills remain elevated",
+    "summary": "CBS reports food inflation is cooling, but household energy contracts are still running 18% above 2023 baselines for new tenants.",
+    "url": "#",
+    "date": "2026-06-05",
+    "category": "Cost of Living",
+    "mode": "serious",
+    "source": "CBS",
+    "pinned": false,
+    "tags": ["cost of living", "energy", "groceries"]
+  },
+  {
+    "title": "IND processing times for EU nationals drop to 3 weeks",
+    "summary": "The Immigration and Naturalisation Service has cleared its backlog. EU nationals registering at a gemeente can now expect BSN within 3 weeks.",
+    "url": "#",
+    "date": "2026-05-28",
+    "category": "Legal",
+    "mode": "serious",
+    "source": "IND.nl",
+    "pinned": false,
+    "tags": ["BSN", "IND", "registration", "legal"]
+  },
+  {
+    "title": "Industrial mechanic shortage reaches record high in Dutch manufacturing",
+    "summary": "UWV reports the Netherlands is short over 12,000 qualified mechanics, with salaries rising sharply in the Randstad and Brabant regions.",
+    "url": "#",
+    "date": "2026-05-20",
+    "category": "Jobs",
+    "mode": "serious",
+    "source": "UWV",
+    "pinned": false,
+    "tags": ["jobs", "mechanics", "manufacturing", "salary"]
+  },
+  {
+    "title": "Rotterdam named most liveable city for expats under 35",
+    "summary": "Expatica's annual survey puts Rotterdam ahead of Amsterdam for affordability, international community, and public transport for younger newcomers.",
+    "url": "#",
+    "date": "2026-05-15",
+    "category": "Housing",
+    "mode": "serious",
+    "source": "Expatica",
+    "pinned": false,
+    "tags": ["Rotterdam", "expat", "liveability"]
+  },
+  {
+    "title": "NS train prices increase 4.2% from January 2027",
+    "summary": "Dutch national rail operator NS has confirmed annual ticket price increases. Monthly OV-chipkaart subscriptions will also rise for new subscribers.",
+    "url": "#",
+    "date": "2026-05-10",
+    "category": "Transport",
+    "mode": "serious",
+    "source": "NS.nl",
+    "pinned": false,
+    "tags": ["transport", "NS", "train", "OV-chipkaart"]
+  },
+  {
+    "title": "Dutch health insurance comparison 2027 — what expats need to know",
+    "summary": "Mandatory basisverzekering starts from day one of residency. This breakdown compares the four main providers on price, coverage and English support.",
+    "url": "#",
+    "date": "2026-05-01",
+    "category": "Legal",
+    "mode": "serious",
+    "source": "Zorgwijzer.nl",
+    "pinned": false,
+    "tags": ["health insurance", "zorgverzekering", "legal", "expat"]
+  },
+  {
+    "title": "Why Dutch people will cycle through a hailstorm without complaining",
+    "summary": "A cultural deep-dive into the 'doe maar gewoon' mindset and why complaining about weather is considered mildly embarrassing in the Netherlands.",
+    "url": "#",
+    "date": "2026-06-09",
+    "category": "Dutch Quirks",
+    "mode": "unserious",
+    "source": "Stuffdutchpeoplelike.com",
+    "pinned": false,
+    "tags": ["culture", "cycling", "Dutch mindset"]
+  },
+  {
+    "title": "Rated and ranked: every Dutch supermarket chain for newcomers",
+    "summary": "Albert Heijn vs Lidl vs Jumbo vs Aldi — an honest breakdown of where to spend your euros when you first arrive and don't know anything.",
+    "url": "#",
+    "date": "2026-06-07",
+    "category": "Food",
+    "mode": "unserious",
+    "source": "Expatica",
+    "pinned": false,
+    "tags": ["food", "supermarket", "budget", "expat"]
+  },
+  {
+    "title": "The 10 Dutch phrases that will make your colleagues like you immediately",
+    "summary": "Forget 'hallo' and 'dankjewel'. These are the real phrases — used in offices, warehouses and factory floors — that earn instant respect.",
+    "url": "#",
+    "date": "2026-06-03",
+    "category": "Culture",
+    "mode": "unserious",
+    "source": "DutchPod101",
+    "pinned": false,
+    "tags": ["Dutch language", "culture", "workplace"]
+  },
+  {
+    "title": "Stroopwafels, bitterballen and hagelslag — a survival guide to Dutch food",
+    "summary": "Chocolate sprinkles on bread for breakfast is normal here. This is your guide to what the Dutch eat, when they eat it, and what to pretend you enjoy.",
+    "url": "#",
+    "date": "2026-05-25",
+    "category": "Food",
+    "mode": "unserious",
+    "source": "IamExpat",
+    "pinned": false,
+    "tags": ["food", "Dutch culture", "expat"]
+  },
+  {
+    "title": "How to survive your first Dutch winter as someone from Southern Europe",
+    "summary": "It's not the cold. It's the horizontal rain, the grey skies from October to March, and the Dutch acting like this is completely fine. A guide.",
+    "url": "#",
+    "date": "2026-05-18",
+    "category": "Expat Life",
+    "mode": "unserious",
+    "source": "Stuffdutchpeoplelike.com",
+    "pinned": false,
+    "tags": ["winter", "weather", "Southern Europe", "expat"]
+  },
+  {
+    "title": "The unwritten rules of Dutch directness — and how not to take it personally",
+    "summary": "Your Dutch colleague isn't being rude. They genuinely think telling you your idea is bad is a form of respect. A cultural translator for newcomers.",
+    "url": "#",
+    "date": "2026-05-12",
+    "category": "Dutch Quirks",
+    "mode": "unserious",
+    "source": "IamExpat",
+    "pinned": false,
+    "tags": ["culture", "Dutch directness", "workplace", "expat"]
+  },
+  {
+    "title": "OV-fiets, swapfiets or second-hand? The bike decision every expat faces",
+    "summary": "In the Netherlands, not having a bike is a personality flaw. Here's a breakdown of your options, costs, and which one makes sense for four guys on a budget.",
+    "url": "#",
+    "date": "2026-05-05",
+    "category": "Expat Life",
+    "mode": "unserious",
+    "source": "DutchNews.nl",
+    "pinned": false,
+    "tags": ["cycling", "bike", "transport", "budget"]
+  },
+  {
+    "title": "Four Portuguese guys move to the Netherlands — what actually shocked them",
+    "summary": "Directness, herring, bike lanes that feel like highways, and the silence on public transport. An honest account of the first 30 days.",
+    "url": "#",
+    "date": "2026-05-01",
+    "category": "Expat Life",
+    "mode": "unserious",
+    "source": "Netherlands Plan",
+    "pinned": true,
+    "tags": ["expat", "Portugal", "Netherlands", "first month"]
+  }
+]
