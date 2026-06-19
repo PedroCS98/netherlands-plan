@@ -12,18 +12,20 @@
     --color-tulip-gold: #F5A623;
     --color-parchment: #F5F0E8;
     --color-ink: #2C2C2A;
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
 }
 
 body{
     background-color: var(--color-parchment);
     margin: 0;
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: var(--font-body);
     line-height: 1.65;
     color: var(--color-ink);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--font-heading);
     line-height: 1.2;
     color: var(--color-midnight);
 }
