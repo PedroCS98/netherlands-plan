@@ -41,7 +41,7 @@
 }
 
 .modal-box {
-    background: #F5F0E8;
+    background: var(--color-parchment);
     border-radius: 15px;
     padding: 3rem;
     min-width: 4rem;
@@ -65,5 +65,5 @@
     border: none;
     font-size: 1rem;
     cursor: pointer;
-    color: #2C2C2A;
+    color: var(--color-ink);
 }

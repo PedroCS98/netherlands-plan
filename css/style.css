@@ -4,24 +4,34 @@
 
 /* === BASE === */
 
+:root {
+    --color-midnight: #0F1F2E;
+    --color-canal: #1B3A5C;
+    --color-sky: #7BAFD4;
+    --color-dutch-orange: #E8521A;
+    --color-tulip-gold: #F5A623;
+    --color-parchment: #F5F0E8;
+    --color-ink: #2C2C2A;
+}
+
 body{
-    background-color: #F5F0E8;
+    background-color: var(--color-parchment);
     margin: 0;
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     line-height: 1.65;
-    color: #2C2C2A;
+    color: var(--color-ink);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', Georgia, serif;
     line-height: 1.2;
-    color: #0F1F2E;
+    color: var(--color-midnight);
 }
 
 /* === NAV & HEADER ==== */
 
 body > header {
-    background-color: #0F1F2E;
+    background-color: var(--color-midnight);
 }
 
 nav{
@@ -36,7 +46,7 @@ nav ul{
 	margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #0F1F2E;
+    background-color: var(--color-midnight);
 }
 
 nav ul li{
@@ -46,24 +56,24 @@ nav ul li{
 }
 
 nav ul li:hover {
-    border-bottom: 3px solid #E8521A;
+    border-bottom: 3px solid var(--color-dutch-orange);
 }
 
 nav ul li a{
     cursor: pointer;
-    color: #F5F0E8;
+    color: var(--color-parchment);
     text-decoration: none;
 }
 
-li.login-buttom{
-    background-color: #E8521A;
+li.login-button{
+    background-color: var(--color-dutch-orange);
     position: absolute;
     right: 0;
     margin-right: 0;
 }
 
-li.login-buttom:hover{
-    border-bottom: 3px solid #F5A623;
+li.login-button:hover{
+    border-bottom: 3px solid var(--color-tulip-gold);
 }
 
 .title{
@@ -76,13 +86,13 @@ li.login-buttom:hover{
 
 .title h1{
     font-size: 52px;
-    color: #F5F0E8;
+    color: var(--color-parchment);
 }
 #letsgo{
     font-style: italic;
     margin: 0;
     font-size: 24px;
-    color: #F5A623;
+    color: var(--color-tulip-gold);
 }
 
 #tulipsimg{
@@ -90,14 +100,14 @@ li.login-buttom:hover{
     height: 320px;
     object-fit: cover;
     object-position: center 40%;
-    border-top: 3px solid #1B3A5C;
-    border-bottom: 3px solid #1B3A5C;
+    border-top: 3px solid var(--color-canal);
+    border-bottom: 3px solid var(--color-canal);
 }
 
 header audio {
     display: block;
     margin: 16px 24px;
-    accent-color: #E8521A;
+    accent-color: var(--color-dutch-orange);
     opacity: 0.7;
     padding-bottom: 16px;
 }
@@ -117,12 +127,12 @@ main > section {
 main section h2 {
     padding-bottom: 8px;
     border-bottom: 1.5px solid rgba(15, 31, 46, 0.3);
-    color: #1B3A5C;
+    color: var(--color-canal);
     margin-bottom: 16px;
 }
 
 button:hover {
-    background-color: #E8521A;
+    background-color: var(--color-dutch-orange);
     transform: translateY(-1px);
 }
 
@@ -147,8 +157,8 @@ ul.budget li{
     margin: 4px;
 	padding: 8px 16px;
 	border-radius: 99px;
-    border: 1.5px solid #1B3A5C;
-    color: #1B3A5C;
+    border: 1.5px solid var(--color-canal);
+    color: var(--color-canal);
 }
 
 .faq dt {
@@ -160,7 +170,7 @@ ul.budget li{
     user-select: none;
     font-weight: bold;
     width: auto;
-    color: #0F1F2E;
+    color: var(--color-midnight);
     padding: 8px 12px;
     border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
 }
@@ -228,7 +238,7 @@ ul.budget li{
 }
 
 .table-wrapper table thead {
-    background: #0F1F2E;
+    background: var(--color-midnight);
 }
 
 .table-wrapper table thead th {
@@ -256,28 +266,28 @@ ul.budget li{
 
 .budget-counter td {
     padding: 4px 8px;
-    color: #2C2C2A;
+    color: var(--color-ink);
     font-weight: 600;
 }
 
 .budget-counter td:first-child {
-    color: #1B3A5C;
+    color: var(--color-canal);
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
 }
 
 .budget_total {
-    background: #1B3A5C;
+    background: var(--color-canal);
 }
 
 .budget_total td {
     font-weight: 600;
-    color: #F5F0E8;
+    color: var(--color-parchment);
 }
 
 .budget_total td:first-child {
-    color: #F5A623;
+    color: var(--color-tulip-gold);
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -315,7 +325,7 @@ ul.budget li{
     cursor: pointer;
     align-self: flex-start;
     margin-left: 10px;
-    background-color: #1B3A5C;
+    background-color: var(--color-canal);
     color: white;
     border-radius: 6px;
     padding: 5px 10px;
@@ -352,9 +362,9 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0F1F2E;
+    background-color: var(--color-midnight);
     padding: 32px 24px;
-    border-top: 2.5px solid #E8521A;
+    border-top: 2.5px solid var(--color-dutch-orange);
 }
 
 .footer p {
