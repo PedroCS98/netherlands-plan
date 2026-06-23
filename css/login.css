@@ -1,0 +1,24 @@
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    background: #FAFAF9;
+    border: 1px solid rgba(15, 31, 46, 0.3);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.login-form form button{
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 10px;
+    background-color: var(--color-canal);
+    color: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.04em;
+    transition: background 200ms ease, transform 100ms ease;
+}
