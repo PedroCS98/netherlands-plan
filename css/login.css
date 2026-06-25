@@ -22,3 +22,7 @@
     letter-spacing: 0.04em;
     transition: background 200ms ease, transform 100ms ease;
 }
+
+.login-form form button:hover {
+    background-color: var(--color-dutch-orange);
+}
