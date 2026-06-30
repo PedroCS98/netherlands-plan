@@ -6,7 +6,7 @@
     background: #FAFAF9;
     border: 1px solid rgba(15, 31, 46, 0.3);
     border-radius: 10px;
-    padding: 16px;
+    padding: var(--space-m);
 }
 
 .login-form form button{

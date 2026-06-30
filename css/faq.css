@@ -7,7 +7,7 @@
     user-select: none;
     font-weight: bold;
     color: var(--color-midnight);
-    padding: 8px 12px;
+    padding: var(--space-s) 12px;
     border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
 }
 
@@ -17,7 +17,7 @@
 
 .faq dd{
     display: none;
-    padding: 8px 12px;
+    padding: var(--space-s) 12px;
     margin: 0;
     border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
 }
