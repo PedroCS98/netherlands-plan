@@ -14,6 +14,10 @@
     --color-ink: #2C2C2A;
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --space-s:  8px;
+    --space-m:  16px;
+    --space-l:  24px;
+    --space-xl:  48px;
 }
 
 body{
@@ -52,7 +56,7 @@ nav ul{
 }
 
 nav ul li{
-    margin: 0 15px;
+    margin: 0 var(--space-m);
     padding: 5px 10px;
     border-bottom: 3px solid transparent;
 }
@@ -82,8 +86,8 @@ li.login-button:hover{
     display: flex;
     align-items: baseline;
     justify-content: center;
-    gap: 16px;
-    padding: 32px 24px 24px;
+    gap: var(--space-m);
+    padding: 32px var(--space-l) var(--space-l);
 }
 
 .title h1{
@@ -108,10 +112,10 @@ li.login-button:hover{
 
 header audio {
     display: block;
-    margin: 16px 24px;
+    margin: var(--space-m) var(--space-l);
     accent-color: var(--color-dutch-orange);
     opacity: 0.7;
-    padding-bottom: 16px;
+    padding-bottom: var(--space-m);
 }
 
 /* === MAIN & LAYOUT === */
@@ -119,18 +123,18 @@ header audio {
 main{
     max-width: 860px;
     margin-inline: auto;
-    padding: 48px 24px;
+    padding: var(--space-xl) var(--space-l);
 }
 
 main > section {
-    margin-bottom: 48px;
+    margin-bottom: var(--space-xl);
 }
 
 main section h2 {
-    padding-bottom: 8px;
+    padding-bottom: var(--space-s);
     border-bottom: 1.5px solid rgba(15, 31, 46, 0.3);
     color: var(--color-canal);
-    margin-bottom: 16px;
+    margin-bottom: var(--space-m);
 }
 
 button:hover {
@@ -142,7 +146,7 @@ button:hover {
 
 ul.budget{
     list-style-type: none;
-    padding: 16px;
+    padding: var(--space-m);
     margin: 0;
     background: rgba(255, 255, 255, 0.65);
     border: 1px solid rgba(15, 31, 46, 0.14);
@@ -157,142 +161,10 @@ ul.budget li{
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin: 4px;
-	padding: 8px 16px;
+	padding: var(--space-s) var(--space-m);
 	border-radius: 99px;
     border: 1.5px solid var(--color-canal);
     color: var(--color-canal);
-}
-
-.faq dt {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: background 300ms ease;
-    user-select: none;
-    font-weight: bold;
-    width: auto;
-    color: var(--color-midnight);
-    padding: 8px 12px;
-    border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
-}
-
-.faq dt:hover {
-    background: rgba(123, 175, 212, 0.08);
-}
-
-.faq dd{
-    display: none;
-    padding: 8px 12px;
-    margin: 0;
-    border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
-}
-
-.faq dt .faq-arrow {
-    display: inline-block;
-    position: relative;
-}
-
-/* Faq ↓ is shown and ✕ is hidden*/
-.faq dt .faq-arrow::before {
-    content: '↓';
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 1;
-    transition: opacity 150ms ease;
-}
-.faq dt .faq-arrow::after {
-    content: '✕';
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0;
-    transition: opacity 200ms ease;
-}
-
-/* Shows ✕ and hides ↓ */
-.faq dt.open .faq-arrow::before {
-    opacity: 0;
-}
-.faq dt.open .faq-arrow::after {
-    opacity: 1;
-}
-
-/* Shows FAQ answer */
-.faq dd.open {
-    display: block;
-}
-
-.table-wrapper {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-        
-.table-wrapper table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.875rem;
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 1px 3px rgba(15, 31, 46, 0.08);
-}
-
-.table-wrapper table thead {
-    background: var(--color-midnight);
-}
-
-.table-wrapper table thead th {
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    text-align: left;
-    padding: 8px 12px;
-    color: rgba(245, 240, 232, 0.8);
-}
-
-.budget-counter input {
-    width: 72px;
-}
-
-.budget-counter tr {
-    border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
-    transition: background 200ms ease;
-}
-
-.budget-counter tr:not(.budget_total):hover {
-    background: rgba(123, 175, 212, 0.12);
-}
-
-.budget-counter td {
-    padding: 4px 8px;
-    color: var(--color-ink);
-    font-weight: 600;
-}
-
-.budget-counter td:first-child {
-    color: var(--color-canal);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-}
-
-.budget_total {
-    background: var(--color-canal);
-}
-
-.budget_total td {
-    font-weight: 600;
-    color: var(--color-parchment);
-}
-
-.budget_total td:first-child {
-    color: var(--color-tulip-gold);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
 }
         
 .video-container{
@@ -312,35 +184,6 @@ ul.budget li{
     height: 100%;
 }
 
-.login-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: 0;
-    background: #FAFAF9;
-    border: 1px solid rgba(15, 31, 46, 0.3);
-    border-radius: 10px;
-    padding: 16px;
-}
-
-.login-form form button{
-    cursor: pointer;
-    align-self: flex-start;
-    margin-left: 10px;
-    background-color: var(--color-canal);
-    color: white;
-    border-radius: 6px;
-    padding: 5px 10px;
-    font-weight: 600;
-    font-size: 0.875rem;
-    letter-spacing: 0.04em;
-    transition: background 200ms ease, transform 100ms ease;
-}
-
-button:hover {
-	background-color: #E8521A;
-    transform: translateY(-1px);
-}
 /*
 .news-feed {
     background-color: rgba(255, 255, 255, 0.296);
@@ -365,7 +208,7 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-midnight);
-    padding: 32px 24px;
+    padding: 32px var(--space-l);
     border-top: 2.5px solid var(--color-dutch-orange);
 }
 
@@ -389,14 +232,14 @@ button:hover {
     }
     
     nav ul li {
-        padding: 4px 8px;
+        padding: 4px var(--space-s);
     }
     
     nav ul li a {
         font-size: 0.8rem;
     }
 
-    li.login-buttom{
+    li.login-button{
         position: static;
         right: auto;
     }
@@ -409,7 +252,7 @@ button:hover {
         height: 220px;
     }
     main {
-        padding: 24px 16px;
+        padding: var(--space-l) var(--space-m);
     }
     main > section {
         margin-bottom: 40px;
@@ -417,7 +260,7 @@ button:hover {
     .footer {
         flex-direction: column;
         gap: 8px;
-        padding: 24px 16px;
+        padding: var(--space-l) var(--space-m);
     }
     
 }

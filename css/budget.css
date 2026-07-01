@@ -1,0 +1,71 @@
+
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+        
+.table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(15, 31, 46, 0.08);
+}
+
+.table-wrapper table thead {
+    background: var(--color-midnight);
+}
+
+.table-wrapper table thead th {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: var(--space-s) 12px;
+    color: rgba(245, 240, 232, 0.8);
+}
+
+.budget-counter input {
+    width: 72px;
+}
+
+.budget-counter tr {
+    border-bottom: 0.5px solid rgba(15, 31, 46, 0.14);
+    transition: background 200ms ease;
+}
+
+.budget-counter tr:not(.budget_total):hover {
+    background: rgba(123, 175, 212, 0.12);
+}
+
+.budget-counter td {
+    padding: 4px var(--space-s);
+    color: var(--color-ink);
+    font-weight: 600;
+}
+
+.budget-counter td:first-child {
+    color: var(--color-canal);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.budget_total {
+    background: var(--color-canal);
+}
+
+.budget_total td {
+    font-weight: 600;
+    color: var(--color-parchment);
+}
+
+.budget_total td:first-child {
+    color: var(--color-tulip-gold);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
