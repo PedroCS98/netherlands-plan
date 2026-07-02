@@ -207,6 +207,12 @@ ul.budget li{
     padding-bottom: 0;
 }
 
+.news-grid{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-m);
+}
+
 #news-toggle {
     cursor: pointer;
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
