@@ -184,6 +184,7 @@ ul.budget li{
     height: 100%;
 }
 
+/* === NEWS FEED === */
 
 .news-feed {
     border-radius: 10px;
@@ -196,45 +197,61 @@ ul.budget li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 24px;
-    padding-bottom: 8px;
+    margin-bottom: var(--space-l);
+    padding-bottom: var(--space-s);
     border-bottom: 1.5px solid rgba(15, 31, 46, 0.3);
 }
 
 .news-feed-header h2 {
     border-bottom: none;
-    margin-bottom: 0;
+    margin-bottom: var(--space-s);
     padding-bottom: 0;
-}
-
-.news-grid{
-    display: flex;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--space-m);
 }
 
 #news-toggle {
     cursor: pointer;
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: var(--font-body);
     font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 0.05em;
     padding: 6px 16px;
-    border-radius: 99px;
-    border: 1.5px solid #1B3A5C;
+    border-radius: 100px;
+    border: 1.5px solid var(--color-canal);
     background: transparent;
-    color: #1B3A5C;
+    color: var(--color-canal);
     transition: background 300ms ease, transform 100ms ease;
     white-space: nowrap;
 }
 
 #news-toggle:hover {
-    background: #E8521A;
-    color: #F5F0E8;
-    border-color: #E8521A;
+    background: var(--color-dutch-orange);
+    color: var(--color-parchment);
+    border-color: var(--color-dutch-orange);
     transform: translateY(-1.5px);
 }
 
+.news-wrapper{
+    margin-top: 12px;
+}
+
+.news-wrapper--hidden {
+    display: none;
+}
+
+.news-pinned{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/*wip*/
 .news-card {
     background: rgba(255, 255, 255, 0.62);
     border: 0.5px solid rgba(15, 31, 46, 0.14);
@@ -243,7 +260,6 @@ ul.budget li{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin: 4px;
 }
 
 .news-tag {
@@ -295,14 +311,14 @@ ul.budget li{
 .news-link {
     font-size: 0.75rem;
     font-weight: 600;
-    color: #1B3A5C;
+    color: var(--color-canal);
     text-decoration: none;
     letter-spacing: 0.04em;
     transition: color 200ms ease;
 }
 
 .news-link:hover {
-    color: #E8521A;
+    color: var(--color-dutch-orange);
 }
 
 /* === FOOTER === */
